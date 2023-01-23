@@ -1,5 +1,4 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { parse } from "path";
 import { DataType } from "../View";
 export interface CreateState {
   userData: DataType[];
